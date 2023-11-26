@@ -1,0 +1,64 @@
+ErrorDocument 403 /404.html
+ErrorDocument 404 /404.html
+
+DirectoryIndex page27967558.html
+
+RewriteEngine On
+
+RewriteCond %{REQUEST_FILENAME} /robots.txt
+RewriteCond "%{DOCUMENT_ROOT}/robots_%{HTTP_HOST}.txt" -f
+RewriteRule ^(.*)$ robots_%{HTTP_HOST}.txt [NC,L]
+RewriteRule ^aboutus$ page27954672.html [NC]
+RewriteRule ^aboutus/$ page27954672.html [NC]
+
+RewriteRule ^services$ page27989516.html [NC]
+RewriteRule ^services/$ page27989516.html [NC]
+
+RewriteRule ^toyotamanuall$ page28003708.html [NC]
+RewriteRule ^toyotamanuall/$ page28003708.html [NC]
+
+RewriteRule ^corollainstructionmanuall$ page28024967.html [NC]
+RewriteRule ^corollainstructionmanuall/$ page28024967.html [NC]
+
+RewriteRule ^aurisinstructionmanuall$ page28026718.html [NC]
+RewriteRule ^aurisinstructionmanuall/$ page28026718.html [NC]
+
+RewriteRule ^versoinstructionmanuall$ page28026695.html [NC]
+RewriteRule ^versoinstructionmanuall/$ page28026695.html [NC]
+
+RewriteRule ^yarisinstructionmanuall$ page28026726.html [NC]
+RewriteRule ^yarisinstructionmanuall/$ page28026726.html [NC]
+
+RewriteRule ^nissaninstructionmanuall$ page28003735.html [NC]
+RewriteRule ^nissaninstructionmanuall/$ page28003735.html [NC]
+
+RewriteRule ^sentrainstructionmanuall$ page28026737.html [NC]
+RewriteRule ^sentrainstructionmanuall/$ page28026737.html [NC]
+
+RewriteRule ^qashqaiinstructionmanuall$ page28026745.html [NC]
+RewriteRule ^qashqaiinstructionmanuall/$ page28026745.html [NC]
+
+RewriteRule ^jukeinstructionmanuall$ page28026757.html [NC]
+RewriteRule ^jukeinstructionmanuall/$ page28026757.html [NC]
+
+RewriteRule ^fordinstructionmanuall$ page28003739.html [NC]
+RewriteRule ^fordinstructionmanuall/$ page28003739.html [NC]
+
+RewriteRule ^proshivka$ page28773631.html [NC]
+RewriteRule ^proshivka/$ page28773631.html [NC]
+
+RewriteRule ^fordfocus3instructionmanuall$ page29545991.html [NC]
+RewriteRule ^fordfocus3instructionmanuall/$ page29545991.html [NC]
+
+RewriteRule ^pomosh$ page28003453.html [NC]
+RewriteRule ^pomosh/$ page28003453.html [NC]
+
+RewriteRule ^shapka$ page27996717.html [NC]
+RewriteRule ^shapka/$ page27996717.html [NC]
+
+RewriteRule ^podval$ page27996764.html [NC]
+RewriteRule ^podval/$ page27996764.html [NC]
+
+RewriteRule ^members/ ma_start.html [NC]
+
+
